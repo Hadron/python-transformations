@@ -2,12 +2,13 @@ Source: transformations
 Section: devel
 Priority: optional
 Maintainer: Klee Dienes <klee@mit.edu>
-Build-Depends: debhelper (>= 9), dh-systemd
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 7), python-support (>= 0.6.4), python-all-dev (>= 2.5), python3-all-dev (>= 3.1), python-numpy, python3-numpy
 X-Python-Version: >= 2.5
+X-Python3-Version: >= 3.1
 
 Package: python-transformations
-Architecture: all
+Architecture: any
 Depends: ${python:Depends}
 Description: photon
  photon

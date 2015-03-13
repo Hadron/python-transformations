@@ -9,4 +9,4 @@ CFLAGS   += $(CPPFLAGS)
 CXXFLAGS += $(CPPFLAGS)
 
 %:
-	dh $@ --with python2 --with systemd --buildsystem=python_distutils
+	dh $@ --with python2 --buildsystem=python_distutils
